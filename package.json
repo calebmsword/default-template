@@ -1,0 +1,16 @@
+{
+  "name": "default-template",
+  "repository": "https://github.com/calebmsword/default-template",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "An eye-catching selling point for the project.",
+  "main": "index.js",
+  "types": "public-types.d.ts",
+  "keywords": [
+  ],
+  "author": "Caleb Sword",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
