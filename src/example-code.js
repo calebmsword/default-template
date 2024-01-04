@@ -17,10 +17,11 @@
  * ```
  * You can provide multiple examples.
  * @param {TypeA} paramName A description of the parameter
- * @param {TypeB} hashParam Provide a type for an object parameter
- * @param {object} hashParam An object parameter. You MUST use the `object` type for the properties to be documented
- * @param {TypeC} hashParam.property Descriptions of a property on the hashParam object
+ * @param {TypeB} hashParam A description of the parameter
+ * @param {object} hashParam An object parameter. You MUST use the `object` type for the properties to be documented.
+ * If you would like a custom type, provide a @param annotation BEFORE this one as shown
+ * @param {TypeC} hashParam.property A description of a property on the `hashParam` object
  * @param {TypeD} [optionalParam] The brackets indicate the argument is optional
  * @returns {TypeD}
  */
-// const myFunction = (paramName, { hashParam }, optionalParam) => { /** do stuff */ };
+const myFunction = (paramName, { property }, optionalParam) => { /** do stuff */ };
