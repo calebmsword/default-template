@@ -1,0 +1,7 @@
+node_modules/
+tsdist/
+.github/
+.gitignore
+README.md
+private-types.d.ts
+LICENSE
