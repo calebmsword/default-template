@@ -2,7 +2,7 @@ import assert from "node:assert";
 import { describe, test, mock } from "node:test";
 
 // By default, TypeScript will not check test files.
-// If you would like TypeScript in these files, then
+// If you would like TypeScript to check test, then
 // in tsconfig.json:
 //  - remove `"exclude"`
 //  - add `"moduleResolution": "nodeNext"`
