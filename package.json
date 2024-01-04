@@ -8,6 +8,10 @@
   "types": "public-types.d.ts",
   "keywords": [
   ],
+  "scripts": {
+    "test": "node --test",
+    "test-coverage": "node --test --experimental-test-coverage"
+  },
   "author": "Caleb Sword",
   "license": "MIT",
   "devDependencies": {
